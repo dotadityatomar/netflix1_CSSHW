@@ -9,5 +9,12 @@ body{
 .Center{
     text-align: center;
     forced-color-adjust: white
-    ;
+    
+}
+.tag_line
+{
+    color: aliceblue;
+}
+.mess{
+    color: aliceblue;
 }
