@@ -1,0 +1,13 @@
+body{
+    background-image: url("./image/Netflix-Background.jpg");
+}
+
+.button1{
+    text-align: right;
+}
+
+.Center{
+    text-align: center;
+    forced-color-adjust: white
+    ;
+}
