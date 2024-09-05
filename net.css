@@ -1,20 +1,81 @@
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
-    background-image: url("./image/Netflix-Background.jpg");
-}
-
-.button1{
-    text-align: right;
-}
-
-.Center{
-    text-align: center;
-    forced-color-adjust: white
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0, 0, 0, 0.8)),url("./image/Netflix-Background.jpg");
+    /* The linear gradient acts as an overlay on top of the background image, giving it a darker tint.*/
+    height:100%;  /* Make the body take the full viewport height */
+    width:100%;    /* Make the body take the full viewport width */
     
 }
-.tag_line
-{
-    color: aliceblue;
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:15vh;
 }
+
+.logo{
+    width:50%;  /* div class buttons has share the horizontal space with width:49%*/
+    padding-left:150px;
+}
+
+img{
+    width: 200px;
+    height: 60px;   
+}
+
+.button{
+    padding: 100px;
+    width: 49%;
+    text-align: right;
+    margin-top: -25px;
+}
+
+
+.button1, .button2{
+    background: red; /* background color of the button turn to red*/
+    padding: 8px 14px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px; /* curve along the edges*/
+    font-weight: bold;
+    margin: 4px;
+    padding-left: none;
+
+
+}
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 85vh; /* height distributed among header and main part out of 100vh*/
+    
+}
+
+.head{
+    font-size: 55px;
+    font-weight: bolder;
+}
+
 .mess{
-    color: aliceblue;
+    font-size: 28px;  
+    padding:10px;  
 }
+
+#mess1{
+    font-size: 23px;
+    padding:10px;
+    padding-top: -40px;
+
+
+
