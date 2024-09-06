@@ -21,7 +21,7 @@ body{
 
 .logo{
     width:50%;  /* div class buttons has share the horizontal space with width:49%*/
-    padding-left:150px;
+    padding-left:60px;
 }
 
 img{
@@ -58,7 +58,8 @@ img{
     justify-content: center;
     align-items: center;
     color: white;
-    height: 85vh; /* height distributed among header and main part out of 100vh*/
+    font-size: 25px;
+
     
 }
 
@@ -68,14 +69,30 @@ img{
 }
 
 .mess{
-    font-size: 28px;  
-    padding:10px;  
+    font-size: 28px;   
+    line-height:-8px;
 }
 
 .mess1{
     font-size: 23px;
-    padding:10px;
-    padding-bottom: -10px;
+    line-height: 1em;
+
+}
+.message{
+    color: aliceblue;
+    text-align: center;
+    line-height:5px;
+    margin-top: -40px;
+}
+.cont{
+    position: absolute;
+    bottom: 40px;
+    padding-bottom: 100px;
+    width:100%;
+    position:fixed;
+
+    text-align:center;
+    z-index:9999;
 }
 
 
